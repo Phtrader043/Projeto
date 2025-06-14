@@ -2,7 +2,7 @@
 import cohere
 from config import API_COHERE
 
-co = cohere.Client(API_COHERE)
+co = cohere.Client(5dzTGoR9jOnUcKrfOujxklCCwEtZuEVc4cBpJmQb)
 
 def analisar_tendencia(dados, modo):
     prompt = f"Analise estes dados {dados} e gere um sinal altamente preciso no modo {modo}. Retorne formato: Ativo, Tipo, Entrada, Saída, Tendência%"
